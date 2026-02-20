@@ -1,4 +1,4 @@
-# Since dijstra has a Titan RTX (24GB VRAM), this script is designed to 
+# For server with (24GB VRAM), this script is designed to 
 # load models sequentially, run a test prompt, and 
 # then completely clear the VRAM before the next model starts. 
 # This prevents the "Out of Memory" (OOM) errors that often crash SOTA evaluation pipelines.
